@@ -29,7 +29,7 @@ class ProxyServer:
         self.log = log_callback
         self.server = None
         self.thread = None
-        self.pattern = re.compile(r'"model"\s*:\s*"claude-[^"]*"')
+        self.pattern = re.compile(r'"model"\s*:\s*"[^"]*"')
 
     def _make_handler(self):
         pattern = self.pattern

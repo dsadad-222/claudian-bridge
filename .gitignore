@@ -1,0 +1,9 @@
+﻿# logs / runtime
+*.log
+__pycache__/
+*.bak*
+data_tmp.json
+bridge_config.json
+15721
+proxy_20260709_190243_628.py
+
